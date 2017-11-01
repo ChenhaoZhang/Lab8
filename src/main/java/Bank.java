@@ -8,9 +8,13 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/8/">Lab 8 Description</a>
  */
 public class Bank {
-
-    public String bankName;
-
+/**
+ * This is a comment.
+ */
+    private String bankName;
+/**
+ * This is a comment.
+ */
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -29,6 +33,12 @@ public class Bank {
         /*
          * Implement this function
          */
+        BankAccount account1;
+        account1.setBalance(bankAccount.getBalance());
+
+        double money = amount;
+        if (money < account1);
+
     }
 
     /**
@@ -78,8 +88,10 @@ public class Bank {
          * Implement this function
          */
     }
-
-    public static int totalAccounts = 0;
+/**
+ * This is a comment.
+ */
+    private static int totalAccounts = 0;
     /**
      * Uses static variable to get number of bank accounts opened.
      *
